@@ -13,9 +13,9 @@ var guess1 = prompt("Do you find pop-ups annoying? Yes/No");
 		alert("MORE POP-UPS! YAY!!");
 	}
 	else alert("you must answer Yes or No");
+
 var guess2 = prompt("On a scale of 1-5 how annoying are these pop-ups?");
 	console.log(guess2);
-	alert(guess2);
 		if(guess2 == "1" || guess2 == "2") {
 			alert("Are you a robot?");
 	}
@@ -25,7 +25,6 @@ var guess2 = prompt("On a scale of 1-5 how annoying are these pop-ups?");
 		else alert("Man are you going to love this page");
 var guess3 = prompt("was this pop-up as annoyingas the last one?");
 console.log(guess3);
-	alert(guess3);
 		if(guess3 == "Yes" || guess3 == "yes" || guess3 == "y"){
 			alert("good, good you are still here though");
 		}
@@ -39,18 +38,19 @@ console.log(guess5);
 		else alert("Well, well well. You certainly have a high tolerance for pop-ups");
 
 var guess6 = prompt("how many more pop-ups would you like to see?");
-	if(guess6 = "1"){alert('Uno Mas!');
+	console.log(guess6);
+	if(guess6 == "1"){alert('Uno Mas!');
 	}
-	else if (guess6 = "2"){
+	else if (guess6 == "2" || guess6 == "two" || guess6 == "Two"){
 		alert('#1');
 		alert('#2');
 	}
-	else if (guess6 = "3"){
+	else if (guess6 == "3" || guess6 == "three" || guess6 == "Three"){
 		alert('#1');
 		alert('#2');
 		alert('#3 Lucky!');
 	}
-	else if (guess6 = "4"){
+	else if (guess6 == "4" || guess6 == "four" || guess6 == "Four"){
 		alert('#1');
 		alert('#2');
 		alert('#3');
