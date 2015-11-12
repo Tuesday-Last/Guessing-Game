@@ -36,15 +36,17 @@ var guess1 = prompt(questions[0]);
 		alert(responses[2]);
 		}
 document.getElementById('reply1').innerHTML = guess1;
+document.getElementById('popup').style.display = "block" 
 var guess2 = prompt(questions[1]);
 	console.log(guess2);
 	if(guess2 == "1" || guess2 == "2"){
-			alert(responses[3]);
+		alert(responses[3]);
 		}
 	else if(guess2 == "3"){
 			alert(responses[4]);
 		}
-	else{alert(responses[5]);
+	else{
+			alert(responses[5]);
 		}
 document.getElementById('reply2').innerHTML = guess2;
 var guess3 = prompt(questions[2]);
