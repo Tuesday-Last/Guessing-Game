@@ -49,6 +49,7 @@ var guess2 = prompt(questions[1]);
 			alert(responses[5]);
 		}
 document.getElementById('reply2').innerHTML = guess2;
+document.getElementById('laugh').style.display = "block"
 var guess3 = prompt(questions[2]);
 console.log(guess3);
 	if(guess3 == "Yes" || guess3 == "yes" || guess3 == "y"){
@@ -57,6 +58,7 @@ console.log(guess3);
 	else{alert(responses[7]);
 		}
 document.getElementById('reply3').innerHTML = guess3;
+document.getElementById('laugh2').style.display = "block"
 var guess5 = prompt(questions[3]);
 console.log(guess5);
 	if(guess5 == "Yes" || guess5 == "yes" || guess5 == "y"){
